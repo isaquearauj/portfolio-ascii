@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="favicon/favicon.png" type="image/png" />
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        <title>Portfolio Isaque Araujo</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top py-4" id="navbar">
+            <div class="container">
+                <a class="navbar-brand fs-5 fw-normal display-4" href="#home"><img src="favicon/favicon.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 fw-medium fs-6">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">INÍCIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">SOBRE MIM</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">EXPERIÊNCIAS</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">HABILIDADES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJETOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home" class="container d-flex align-items-center justify-content-center justify-content-md-start">
+            <div id="home-text">
+                <p><span class="one">Olá</span> <span class="two ms-1">Me chamo</span></p>
+                <h1 class="display-4 font-poppins">Isaque Araujo</h1>
+                <h3 class="display-6">Desenvolvedor <span>Backend.</span></h3>
+                <p class="mt-4" id="home-subtitle">Estudante apaixonado por programação</p>
+                <div class="mt-4 btn-play">
+                    <a href="#projects" class="btn-play-text"><span><i class="bx bx-play"></i></span>Veja meus
+                        projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-me" class="container-fluid bg-color">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6 d-flex justify-content-center">
+                        <img src="img/about.jpg" alt="about-me-image" id="about-image">
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center flex-column">
+                        <h2>SOBRE MIM</h2>
+                        <p class="pt-1 text-justify">Atualmente, estou no 1º período de Sistemas de Informação, sempre em busca de novos desafios e aprendizados. Minha paixão por jogos, construída ao longo da infância, despertou meu interesse pela programação. Tenho facilidade em assimilar novas tecnologias e adoro resolver problemas através de código. </p>
+                        <address id="contact-email">
+                            <span>Email para contato: <a href="mailto:isaqueaj11@gmail.com">isaqueaj11@gmail.com</a></span>
+                        </address>
+                        <div class="socials pt-3">
+                            <a href="https://www.linkedin.com/in/isaquearauj/" target="_blank"
+                                class="btn-socials"><span><i class="bx bxl-linkedin"></i></span></a>
+                            <a href="https://github.com/isaquearauj" target="_blank" class="btn-socials"><span><i
+                                        class="bx bxl-github"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container-fluid second-bg-color">
+            <div class="container py-5">
+                <h2 class="text-center">HABILIDADES</h2>
+                <p class="text-center font-p-sm">No que sou bom</p>
+                <div class="row">
+                    <div id="hard-skills" class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
+                        <ul class="list-unstyled skills-list mt-3">
+                            <li>Java</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>Git</li>
+                            <li>Bootstrap</li>
+                            <li>Spring Boot</li>
+                        </ul>
+                    </div>
+                    <div id="soft-skills" class="col-12 col-md-6 d-flex justify-content-center">
+                        <ul class="list-unstyled skills-list mt-3">
+                            <li>Trabalho em equipe</li>
+                            <li>Adaptabilidade</li>
+                            <li>Pensamento analítico</li>
+                            <li>Proatividade</li>
+                            <li>Aprendizado contínuo</li>
+                            <li>Organização</li>
+                            <li>Comunicação eficaz</li>
+                            <li>Métodos Ágeis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id="projects" class="container-fluid bg-color">
+            <div class="container py-5">
+                <h2 class="text-center">PROJETOS</h2>
+                <div class="row row-cols-1 row-cols-md-4 g-4 mt-3">
+                    <div class="col">
+                        <div class="card h-100 text-bg-dark">
+                            <a href="#"><img src="img/loading.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h5 class="card-title">R6's API REST</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary link-external"><i
+                                        class="bx bx-link-external"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-bg-dark">
+                            <a href="#"><img src="img/loading.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h5 class="card-title">MoneyControl</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary link-external"><i
+                                        class="bx bx-link-external"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-bg-dark">
+                            <a href="#"><img src="img/loading.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h5 class="card-title">HotelRent</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary link-external"><i
+                                        class="bx bx-link-external"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-bg-dark">
+                            <a href="#"><img src="img/loading.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h5 class="card-title">EasyFeet</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-primary link-external"><i
+                                        class="bx bx-link-external"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid">
+            © Copyright Isaque Araujo. All Rights Reserved
+        </footer>
+
+        <a href="#home" id="btnTop"><i class="bx bx-up-arrow-alt"></i></a>
+
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
