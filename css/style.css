@@ -201,10 +201,21 @@ address span a {
 
 .card {
     transition: all .45s ease;
+    width: 100%;
+}
+
+.card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
 }
 
 .card img {
     cursor: pointer;
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .card:hover {
