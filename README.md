@@ -32,7 +32,7 @@ Abaixo está a organização dos arquivos e pastas do projeto:
 📁 img/       - Imagens utilizadas no projeto
 📁 favicon/   - Ícone exibido na aba do navegador
 📄 index.html - Página principal do portfólio
-📄 README.md  - Documentação do projeto
+📄 README.md  - Arquivo readme
 ```
 
 ---
